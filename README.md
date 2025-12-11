@@ -1,6 +1,6 @@
 # CS2-AutoTeam
 
-[![ÖĞÎÄ°æ½éÉÜ](https://img.shields.io/badge/Ìø×ªµ½ÖĞÎÄ°æ-ÖĞÎÄ½éÉÜ-red)](#ÖĞÎÄ°æ½éÉÜ)
+[![ä¸­æ–‡ç‰ˆä»‹ç»](https://img.shields.io/badge/è·³è½¬åˆ°ä¸­æ–‡ç‰ˆ-ä¸­æ–‡ä»‹ç»-red)](#ä¸­æ–‡ç‰ˆä»‹ç»)
 [![Release](https://img.shields.io/github/v/release/DearCrazyLeaf/CS2-AutoTeam?include_prereleases&color=blueviolet)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases/latest)
 [![License](https://img.shields.io/badge/License-GPL%203.0-orange)](https://www.gnu.org/licenses/gpl-3.0.txt)
 [![Issues](https://img.shields.io/github/issues/DearCrazyLeaf/CS2-AutoTeam?color=darkgreen)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/issues)
@@ -41,42 +41,42 @@ If you have suggestions, bug reports, or improvements, feel free to submit an Is
 
 ---
 
-# ÖĞÎÄ°æ½éÉÜ 
-### >[ÖĞÎÄÂÛÌ³Ìû×Ó](https://bbs.csgocn.net/thread-1029.htm)<
+# ä¸­æ–‡ç‰ˆä»‹ç» 
+### >[ä¸­æ–‡è®ºå›å¸–å­](https://bbs.csgocn.net/thread-1029.htm)<
 
 # CS2-AutoTeam
 
 [![English Version](https://img.shields.io/badge/Back_to_English-English-blue)](#CS2-AutoTeam)
-[![Release](https://img.shields.io/github/v/release/DearCrazyLeaf/CS2-AutoTeam?include_prereleases&color=blueviolet&label=×îĞÂ°æ±¾)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases/latest)
-[![License](https://img.shields.io/badge/Ğí¿ÉÖ¤-GPL%203.0-orange)](https://www.gnu.org/licenses/gpl-3.0.txt)
-[![Issues](https://img.shields.io/github/issues/DearCrazyLeaf/CS2-AutoTeam?color=darkgreen&label=·´À¡)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/DearCrazyLeaf/CS2-AutoTeam?color=blue&label=ÇëÇó)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/pulls)
-[![Downloads](https://img.shields.io/github/downloads/DearCrazyLeaf/CS2-AutoTeam/total?color=brightgreen&label=ÏÂÔØ)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases)
-[![GitHub Stars](https://img.shields.io/github/stars/DearCrazyLeaf/CS2-AutoTeam?color=yellow&label=±êĞÇ)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/stargazers)
+[![Release](https://img.shields.io/github/v/release/DearCrazyLeaf/CS2-AutoTeam?include_prereleases&color=blueviolet&label=æœ€æ–°ç‰ˆæœ¬)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases/latest)
+[![License](https://img.shields.io/badge/è®¸å¯è¯-GPL%203.0-orange)](https://www.gnu.org/licenses/gpl-3.0.txt)
+[![Issues](https://img.shields.io/github/issues/DearCrazyLeaf/CS2-AutoTeam?color=darkgreen&label=åé¦ˆ)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/DearCrazyLeaf/CS2-AutoTeam?color=blue&label=è¯·æ±‚)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/pulls)
+[![Downloads](https://img.shields.io/github/downloads/DearCrazyLeaf/CS2-AutoTeam/total?color=brightgreen&label=ä¸‹è½½)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases)
+[![GitHub Stars](https://img.shields.io/github/stars/DearCrazyLeaf/CS2-AutoTeam?color=yellow&label=æ ‡æ˜Ÿ)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/stargazers)
 
-**CS2-AutoTeam ÊÇÒ»¸ö CS2 ²å¼ş£¬ÄÜÔÚÍæ¼Ò¼ÓÈë·şÎñÆ÷Ê±×Ô¶¯½«Æä·ÖÅäµ½Ëæ»úÕóÓª£¨T »ò CT£©£¬½öÔÚÅäÖÃÎÄ¼şÖ¸¶¨µÄµØÍ¼ÉÏÉúĞ§**
+**CS2-AutoTeam æ˜¯ä¸€ä¸ª CS2 æ’ä»¶ï¼Œèƒ½åœ¨ç©å®¶åŠ å…¥æœåŠ¡å™¨æ—¶è‡ªåŠ¨å°†å…¶åˆ†é…åˆ°éšæœºé˜µè¥ï¼ˆT æˆ– CTï¼‰ï¼Œä»…åœ¨é…ç½®æ–‡ä»¶æŒ‡å®šçš„åœ°å›¾ä¸Šç”Ÿæ•ˆ**
 
-## ¹¦ÄÜÌØµã£º
+## åŠŸèƒ½ç‰¹ç‚¹ï¼š
 
-- Íæ¼Ò¼ÓÈë·şÎñÆ÷Ê±×Ô¶¯·ÖÅäµ½Ëæ»úÕóÓª
-- ½öÔÚÖ¸¶¨µØÍ¼ÉúĞ§
-- Ö§³Ö¶àÓïÑÔ
-- ¿ÉÅäÖÃµÄÉúĞ§µØÍ¼ÁĞ±í
+- ç©å®¶åŠ å…¥æœåŠ¡å™¨æ—¶è‡ªåŠ¨åˆ†é…åˆ°éšæœºé˜µè¥
+- ä»…åœ¨æŒ‡å®šåœ°å›¾ç”Ÿæ•ˆ
+- æ”¯æŒå¤šè¯­è¨€
+- å¯é…ç½®çš„ç”Ÿæ•ˆåœ°å›¾åˆ—è¡¨
 
-## Ê¹ÓÃ·½·¨£º
-- ½«²å¼şºÍÅäÖÃÎÄ¼ş·ÅÈë¶ÔÓ¦Ä¿Â¼
-- ±à¼­ÅäÖÃÎÄ¼ş£¬ÉèÖÃĞèÒªÉúĞ§µÄµØÍ¼Ãû³Æ
-- ÈçĞè×Ô¶¨ÒåÓïÑÔ£¬¿ÉÔÚ `lang` ÎÄ¼ş¼ĞÖĞÌí¼Ó»òĞŞ¸ÄÓïÑÔÎÄ¼ş
+## ä½¿ç”¨æ–¹æ³•ï¼š
+- å°†æ’ä»¶å’Œé…ç½®æ–‡ä»¶æ”¾å…¥å¯¹åº”ç›®å½•
+- ç¼–è¾‘é…ç½®æ–‡ä»¶ï¼Œè®¾ç½®éœ€è¦ç”Ÿæ•ˆçš„åœ°å›¾åç§°
+- å¦‚éœ€è‡ªå®šä¹‰è¯­è¨€ï¼Œå¯åœ¨ `lang` æ–‡ä»¶å¤¹ä¸­æ·»åŠ æˆ–ä¿®æ”¹è¯­è¨€æ–‡ä»¶
 
-## ÒªÇó
+## è¦æ±‚
 
 - [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
 
-## ¹±Ï×
+## è´¡çŒ®
 
-Èç¹ûÄúÓĞ½¨Òé¡¢´íÎó±¨¸æ»ò¸Ä½ø£¬»¶Ó­Ìá½» Issue »ò Pull Request¡£
+å¦‚æœæ‚¨æœ‰å»ºè®®ã€é”™è¯¯æŠ¥å‘Šæˆ–æ”¹è¿›ï¼Œæ¬¢è¿æäº¤ Issue æˆ– Pull Requestã€‚
 
-## Ğí¿ÉÖ¤
+## è®¸å¯è¯
 
 <a href="https://www.gnu.org/licenses/gpl-3.0.txt" target="_blank" style="margin-left: 10px; text-decoration: none;">
     <img src="https://img.shields.io/badge/License-GPL%203.0-orange?style=for-the-badge&logo=gnu" alt="GPL v3 License">
