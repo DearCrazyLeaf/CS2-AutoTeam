@@ -21,8 +21,7 @@ namespace CS2AutoTeam
 
         public override void Load(bool hotReload)
         {
-            // 监听玩家出生事件
-            RegisterEventHandler<EventPlayerSpawn>((@event, info) =>
+            RegisterEventHandler<EventPlayerConnect>((@event, info) =>
             {
                 var mapName = Server.MapName;
                 if (Config.MapNames.Contains(mapName, StringComparer.OrdinalIgnoreCase))
@@ -30,7 +29,7 @@ namespace CS2AutoTeam
                     var player = @event.Userid;
                     if (player != null && player.IsValid)
                     {
-                        // 随机分配队伍 2=CT, 3=T
+                        // 2=CT, 3=T
                         var teamId = Random.Shared.Next(2, 4);
                         player.ChangeTeam((CsTeam)teamId);
                         var teamName = Localizer["team_name", (CsTeam)teamId];
