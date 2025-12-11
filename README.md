@@ -42,9 +42,6 @@ If you have suggestions, bug reports, or improvements, feel free to submit an Is
 ---
 
 # 中文版介绍 
-### >[中文论坛帖子](https://bbs.csgocn.net/thread-1029.htm)<
-
-# CS2-AutoTeam
 
 [![English Version](https://img.shields.io/badge/Back_to_English-English-blue)](#CS2-AutoTeam)
 [![Release](https://img.shields.io/github/v/release/DearCrazyLeaf/CS2-AutoTeam?include_prereleases&color=blueviolet&label=最新版本)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases/latest)
@@ -53,6 +50,8 @@ If you have suggestions, bug reports, or improvements, feel free to submit an Is
 [![Pull Requests](https://img.shields.io/github/issues-pr/DearCrazyLeaf/CS2-AutoTeam?color=blue&label=请求)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/pulls)
 [![Downloads](https://img.shields.io/github/downloads/DearCrazyLeaf/CS2-AutoTeam/total?color=brightgreen&label=下载)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases)
 [![GitHub Stars](https://img.shields.io/github/stars/DearCrazyLeaf/CS2-AutoTeam?color=yellow&label=标星)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/stargazers)
+
+## CS2-AutoTeam
 
 **CS2-AutoTeam 是一个 CS2 插件，能在玩家加入服务器时自动将其分配到随机阵营（T 或 CT），仅在配置文件指定的地图上生效**
 
