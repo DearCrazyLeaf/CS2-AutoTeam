@@ -21,24 +21,32 @@ namespace CS2AutoTeam
 
         public override void Load(bool hotReload)
         {
-            RegisterEventHandler<EventPlayerConnect>((@event, info) =>
+            RegisterEventHandler<EventPlayerConnectFull>(OnPlayerConnectFull);
+        }
+
+        private HookResult OnPlayerConnectFull(EventPlayerConnectFull @event, GameEventInfo info)
+        {
+            var currentMap = Server.MapName;
+
+            // 检查当前地图是否在配置列表中（支持部分匹配，如 workshop 地图）
+            bool isMapEnabled = Config.MapNames.Any(configMap =>
+                currentMap.Contains(configMap, StringComparison.OrdinalIgnoreCase) ||
+                configMap.Equals(currentMap, StringComparison.OrdinalIgnoreCase));
+
+            if (isMapEnabled)
             {
-                var mapName = Server.MapName;
-                if (Config.MapNames.Contains(mapName, StringComparer.OrdinalIgnoreCase))
+                var player = @event.Userid;
+                if (player != null && player.IsValid)
                 {
-                    var player = @event.Userid;
-                    if (player != null && player.IsValid)
-                    {
-                        // 2=CT, 3=T
-                        var teamId = Random.Shared.Next(2, 4);
-                        player.ChangeTeam((CsTeam)teamId);
-                        var teamName = Localizer["team_name", (CsTeam)teamId];
-                        var msg = Localizer["player_assigned_team", player.PlayerName, teamName];
-                        Server.PrintToChatAll(msg);
-                    }
+                    // 2=CT, 3=T
+                    var teamId = Random.Shared.Next(2, 4);
+                    player.ChangeTeam((CsTeam)teamId);
+                    var teamName = Localizer["team_name", (CsTeam)teamId];
+                    var msg = Localizer["player_assigned_team", player.PlayerName, teamName];
+                    Server.PrintToChatAll(msg);
                 }
-                return HookResult.Continue;
-            });
+            }
+            return HookResult.Continue;
         }
     }
 }
