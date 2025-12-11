@@ -8,7 +8,7 @@ namespace CS2AutoTeam
     public class AutoTeamPlugin : BasePlugin, IPluginConfig<Config>
     {
         public override string ModuleName => "CS2AutoTeam";
-        public override string ModuleVersion => "1.0.0";
+        public override string ModuleVersion => "1.5.0";
         public override string ModuleAuthor => "DearCrazyLeaf";
         public override string ModuleDescription => "Automatically assigns players to a random team when they join the server, only on configured maps";
 
@@ -33,7 +33,13 @@ namespace CS2AutoTeam
                 currentMap.Contains(configMap, StringComparison.OrdinalIgnoreCase) ||
                 configMap.Equals(currentMap, StringComparison.OrdinalIgnoreCase));
 
-            if (isMapEnabled)
+            // 获取当前服务器玩家数量
+            var playerCount = Utilities.GetPlayers().Count(p => p.IsValid && !p.IsBot && !p.IsHLTV);
+
+            // 检查人数是否达到最少玩家数（0 表示不限制）
+            bool isThresholdMet = Config.MinPlayers <= 0 || playerCount >= Config.MinPlayers;
+
+            if (isMapEnabled && isThresholdMet)
             {
                 var player = @event.Userid;
                 if (player != null && player.IsValid)
@@ -41,7 +47,7 @@ namespace CS2AutoTeam
                     // 2=CT, 3=T
                     var teamId = Random.Shared.Next(2, 4);
                     player.ChangeTeam((CsTeam)teamId);
-                    var teamName = Localizer["team_name", (CsTeam)teamId];
+                    var teamName = Localizer[$"team_name.{teamId}"];
                     var msg = Localizer["player_assigned_team", player.PlayerName, teamName];
                     Server.PrintToChatAll(msg);
                 }

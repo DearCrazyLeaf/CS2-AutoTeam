@@ -1,5 +1,5 @@
 {
-  "player_assigned_team": "玩家{Lime}{0}已被自动分配到队伍{1}",
+  "player_assigned_team": "玩家{Lime}{0}{Default}已被自动分配到队伍{1}",
   "team_name.2": "{Blue}CT",
   "team_name.3": "{Yellow}T"
 }

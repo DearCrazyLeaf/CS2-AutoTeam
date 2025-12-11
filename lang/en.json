@@ -1,5 +1,5 @@
 {
-  "player_assigned_team": "Player {Lime}{0} has been randomly assigned to team {1}!",
+  "player_assigned_team": "Player {Lime}{0} {Default}has been randomly assigned to team {1}",
   "team_name.2": "{Blue}Counter-Terrorists",
   "team_name.3": "{Yellow}Terrorists"
 }
