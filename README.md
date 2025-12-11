@@ -1,55 +1,83 @@
 # CS2-AutoTeam
 
-<p align="center">
-  <a href="https://github.com/DearCrazyLeaf/CS2-AutoTeam">
-    <img src="https://img.shields.io/github/stars/DearCrazyLeaf/CS2-AutoTeam?style=social" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/DearCrazyLeaf/CS2-AutoTeam/issues">
-    <img src="https://img.shields.io/github/issues/DearCrazyLeaf/CS2-AutoTeam" alt="GitHub issues">
-  </a>
-  <a href="https://github.com/DearCrazyLeaf/CS2-AutoTeam/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/DearCrazyLeaf/CS2-AutoTeam" alt="License">
-  </a>
-</p>
+[![中文版介绍](https://img.shields.io/badge/跳转到中文版-中文介绍-red)](#中文版介绍)
+[![Release](https://img.shields.io/github/v/release/DearCrazyLeaf/CS2-AutoTeam?include_prereleases&color=blueviolet)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases/latest)
+[![License](https://img.shields.io/badge/License-GPL%203.0-orange)](https://www.gnu.org/licenses/gpl-3.0.txt)
+[![Issues](https://img.shields.io/github/issues/DearCrazyLeaf/CS2-AutoTeam?color=darkgreen)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/DearCrazyLeaf/CS2-AutoTeam?color=blue)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/pulls)
+[![Downloads](https://img.shields.io/github/downloads/DearCrazyLeaf/CS2-AutoTeam/total?color=brightgreen)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases)
+[![GitHub Stars](https://img.shields.io/github/stars/DearCrazyLeaf/CS2-AutoTeam?color=yellow)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/stargazers)
 
 ## CS2-AutoTeam
 
-### English
+**CS2-AutoTeam is a CS2 plugin that automatically assigns players to a random team (T or CT) when they join the server, only on maps specified in the configuration file.**
 
-CS2-AutoTeam is a Counter-Strike 2 plugin that automatically assigns players to a random team (T or CT) when they join the server, but only on maps configured in the plugin settings.  
-It supports multi-language messages and easy configuration via a JSON file.
+## Features
 
-**Features:**
-- Automatically assign players to a random team on join
+- Automatically assign players to a random team when they join the server
 - Only works on specified maps
-- Multi-language support (English & Simplified Chinese)
-- Easy configuration
+- Multi-language support
+- Configurable map list
 
-**How to use:**
-1. Place the plugin and configuration files in the appropriate directories.
-2. Edit the config file to set the maps you want the plugin to work on.
-3. Add or modify language files in the `lang` folder as needed.
+## How to use
 
----
+- Place the plugin and configuration files in the appropriate directories
+- Edit the configuration file to set the map names you want the plugin to work on
+- To customize language, add or modify language files in the `lang` folder
 
-### 中文
+## Requirements
 
-CS2-AutoTeam 是一个 CS2 插件，能在玩家加入服务器时自动将其分配到随机阵营（T 或 CT），仅在配置文件指定的地图上生效。  
-支持多语言提示（英文和简体中文），配置简单，易于使用。
+- [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
 
-**功能特点：**
-- 玩家加入服务器时自动分配到随机阵营
-- 仅在指定地图生效
-- 支持多语言（英文、简体中文）
-- 配置文件易于修改
+## Contributing
 
-**使用方法：**
-1. 将插件和配置文件放入对应目录。
-2. 编辑配置文件，设置需要生效的地图名称。
-3. 如需自定义语言，可在 `lang` 文件夹中添加或修改语言文件。
-
----
+If you have suggestions, bug reports, or improvements, feel free to submit an Issue or Pull Request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/DearCrazyLeaf/CS2-AutoTeam/blob/master/LICENSE) file for details.
+<a href="https://www.gnu.org/licenses/gpl-3.0.txt" target="_blank" style="margin-left: 10px; text-decoration: none;">
+    <img src="https://img.shields.io/badge/License-GPL%203.0-orange?style=for-the-badge&logo=gnu" alt="GPL v3 License">
+</a>
+
+---
+
+# 中文版介绍 
+### >[中文论坛帖子](https://bbs.csgocn.net/thread-1029.htm)<
+
+# CS2-AutoTeam
+
+[![English Version](https://img.shields.io/badge/Back_to_English-English-blue)](#CS2-AutoTeam)
+[![Release](https://img.shields.io/github/v/release/DearCrazyLeaf/CS2-AutoTeam?include_prereleases&color=blueviolet&label=最新版本)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases/latest)
+[![License](https://img.shields.io/badge/许可证-GPL%203.0-orange)](https://www.gnu.org/licenses/gpl-3.0.txt)
+[![Issues](https://img.shields.io/github/issues/DearCrazyLeaf/CS2-AutoTeam?color=darkgreen&label=反馈)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/DearCrazyLeaf/CS2-AutoTeam?color=blue&label=请求)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/pulls)
+[![Downloads](https://img.shields.io/github/downloads/DearCrazyLeaf/CS2-AutoTeam/total?color=brightgreen&label=下载)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/releases)
+[![GitHub Stars](https://img.shields.io/github/stars/DearCrazyLeaf/CS2-AutoTeam?color=yellow&label=标星)](https://github.com/DearCrazyLeaf/CS2-AutoTeam/stargazers)
+
+**CS2-AutoTeam 是一个 CS2 插件，能在玩家加入服务器时自动将其分配到随机阵营（T 或 CT），仅在配置文件指定的地图上生效**
+
+## 功能特点：
+
+- 玩家加入服务器时自动分配到随机阵营
+- 仅在指定地图生效
+- 支持多语言
+- 可配置的生效地图列表
+
+## 使用方法：
+- 将插件和配置文件放入对应目录
+- 编辑配置文件，设置需要生效的地图名称
+- 如需自定义语言，可在 `lang` 文件夹中添加或修改语言文件
+
+## 要求
+
+- [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
+
+## 贡献
+
+如果您有建议、错误报告或改进，欢迎提交 Issue 或 Pull Request。
+
+## 许可证
+
+<a href="https://www.gnu.org/licenses/gpl-3.0.txt" target="_blank" style="margin-left: 10px; text-decoration: none;">
+    <img src="https://img.shields.io/badge/License-GPL%203.0-orange?style=for-the-badge&logo=gnu" alt="GPL v3 License">
+</a>
