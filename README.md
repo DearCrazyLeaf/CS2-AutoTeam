@@ -1,3 +1,17 @@
+﻿<p align="center">
+  <a href="https://github.com/roflmuffin/CounterStrikeSharp">
+    <img src="https://docs.cssharp.dev/images/cssharp.svg" width="60" height="60" style="vertical-align: middle; margin-right: 10px;" />
+  </a>
+</p>
+
+<h3 align="center">
+  <span style="vertical-align: middle; font-weight: 600;">
+    <code style="vertical-align: middle;">CounterStrikeSharp</code>
+  </span>
+</h3>
+
+---
+
 # CS2-AutoTeam
 
 [![中文版介绍](https://img.shields.io/badge/跳转到中文版-中文介绍-red)](#中文版介绍)
